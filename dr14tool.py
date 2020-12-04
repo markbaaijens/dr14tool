@@ -13,7 +13,7 @@ def sanitizeFileName(fileName):
 import argparse
 parser = argparse.ArgumentParser(description='Tooling for dr14_tmeter.')
 
-parser.add_argument('sourcefolder', metavar='sourcefolder', type=str, help='folder containing source files (flac)')
+parser.add_argument('sourcefolder', metavar='sourcefolder', type=str, help='root-folder containing music files (flac)')
 parser.add_argument('-s', '--scan', help="scan for missing dr14.txt files and generate when needed (default)", action="store_true")
 parser.add_argument('-r', '--report', help="report for all dr14.txt files", action="store_true")   
 
