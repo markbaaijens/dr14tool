@@ -25,14 +25,14 @@ For more info and downloads, see http://dr14tmeter.sourceforge.net/index.php/Mai
 
 ## Usage
 `python3 dr14tool.py --scan [music folder]`\
-dr14tool scan you music library to detect dr14.txt. If absent, it will be generated. Note that dr14_tmeter has an recursive option for scanning; but the problem with that it overwrites every dr14.txt for a new one. Thus, scanning 1000's of albums can take a very long time. Scan-mode is default, so "python3 dr14tool.py [music folder]" will also work.\
+dr14tool scans you music library to detect dr14.txt. If absent, it will be generated. Note that dr14_tmeter has a recursive option for scanning; but the problem with that it overwrites every dr14.txt for a new one. Thus, scanning 1000's of albums can take a very long time. Scan-mode is default, so "python3 dr14tool.py [music folder]" will also work.\
 \
 `python3 dr14tool.py --report [music folder]`\
 dr14tool scans your music folder for the existence of dr14.txt. It than outputs the DR-value per album, in a convenient and compact format, like this:\
-    11 Bach/Goldberg Variations BWV 988 (Glenn Gould 1955) 1955\
-    13 Baker, Chet/Chet Baker Sings\
-    11 Beatles, The/Sgt Peppers Lonely Hearts Club Band\
-    14 Beethoven/Cello Sonata No. 1 Op. 5 No. 1 (Jacqueline du Prey,  Daniel Barenboim)\
+> 11 Bach/Goldberg Variations BWV 988 (Glenn Gould 1955) 1955\
+> 13 Baker, Chet/Chet Baker Sings\
+> 11 Beatles, The/Sgt Peppers Lonely Hearts Club Band\
+> 14 Beethoven/Cello Sonata No. 1 Op. 5 No. 1 (Jacqueline du Prey,  Daniel Barenboim)\
 
 
 
