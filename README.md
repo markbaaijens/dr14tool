@@ -2,13 +2,11 @@
 Toolset for dr14_tmeter for measuring audio compression. 
 
 ## Description
-dr14tool is a wrapper aroound DR14 T Meter. It can be used to scan your whole music collection for the existence of dr14.txt, the file in which dr14_tmeter stores the compression information; if it does not exist, it will generate the file on the fly. dr14tool can also be used to report the compression value for each album of you whole music library in one report.
+dr14tool is a wrapper aroound dr14_tmeter. dr14tool can be used to scan your whole music collection for the existence of dr14.txt, the file in which dr14_tmeter stores the compression information; if it does not exist, it will generate the file on the fly. dr14tool can also be used to report the compression value for each album of you whole music library in one report.
 
 ## What is DR14 T Meter?
 DR14 T.meter is a free and open-source command-line tool for computing the Dynamic Range of your music according to the procedure used in the off-line meter released by the Pleasurize Music Foundation.\
 \
-This tool is handy to measure how is loud your music and for understanding that a good quality album always has also a good dynamic, and it's also useful for understanding the effects of the so-called loudness war.\
-
 For more info and downloads, see http://dr14tmeter.sourceforge.net/index.php/Main_Page
 
 ## Requirements
@@ -24,8 +22,8 @@ For more info and downloads, see http://dr14tmeter.sourceforge.net/index.php/Mai
 `wget https://raw.githubusercontent.com/markbaaijens/dr14tool/master/dr14tool.py -O dr14tool.py`\
 
 ## Usage
-`python3 dr14tool.py --scan [music folder]`\
-dr14tool scans you music library to detect dr14.txt. If absent, it will be generated. Note that dr14_tmeter has a recursive option for scanning; but the problem with that it overwrites every dr14.txt for a new one. Thus, scanning 1000's of albums can take a very long time. Scan-mode is default, so "python3 dr14tool.py [music folder]" will also work.\
+`python3 dr14tool.py [--scan] "[music folder]"`\
+dr14tool scans you music library to detect dr14.txt. If absent, it will be generated. Note that dr14_tmeter it self has an option for recursive scanning; but the problem with that it overwrites every dr14.txt for a new one. Thus, scanning a large number of albums shall take a very long time. Scan-mode is default, so `python3 dr14tool.py [music folder]` will also work.\
 \
 `python3 dr14tool.py --report [music folder]`\
 dr14tool scans your music folder for the existence of dr14.txt. It than outputs the DR-value per album, in a convenient and compact format, like this:\
