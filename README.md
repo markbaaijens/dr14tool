@@ -32,7 +32,7 @@ dr14tool scans your music folder for the existence of dr14.txt. It than outputs 
 > 11 Bach/Goldberg Variations BWV 988 (Glenn Gould 1955) 1955\
 > 13 Baker, Chet/Chet Baker Sings\
 > 11 Beatles, The/Sgt Peppers Lonely Hearts Club Band\
-> 14 Beethoven/Cello Sonata No. 1 Op. 5 No. 1 (Jacqueline du Prey,  Daniel Barenboim)\
+> 14 Beethoven/Cello Sonata No. 1 Op. 5 No. 1 (Jacqueline du Prey,  Daniel Barenboim)
 
 
 
