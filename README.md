@@ -21,14 +21,14 @@ For more info, see:
 `pip3 install numpy scipy`\
 `pip3 install DR14-T.meter`\
 `# dr14tool`\
-`wget https://raw.githubusercontent.com/markbaaijens/dr14tool/master/dr14tool.py -O dr14tool.py`\
+`wget https://raw.githubusercontent.com/markbaaijens/dr14tool/master/dr14tool.py -O dr14tool.py`
 
 ## Usage
 `python3 dr14tool.py [--scan] "[music folder]"`\
 dr14tool scans your music library to detect dr14.txt. If absent, it will be generated. Note that dr14_tmeter it self has an option for recursive scanning; but the problem with that is that it overwrites every dr14.txt for a new one. Thus, scanning a large number of albums shall take a very long time. Scan-mode is default, so `python3 dr14tool.py [music folder]` will also work.\
 \
 `python3 dr14tool.py --report [music folder]`\
-dr14tool scans your music folder for the existence of dr14.txt. It than outputs the DR-value per album, in a convenient and compact format, like this:\
+dr14tool scans your music folder for the existence of dr14.txt. It than outputs the DR-value per album, in a convenient and compact format, like this:
 > 11 Bach/Goldberg Variations BWV 988 (Glenn Gould 1955) 1955\
 > 13 Baker, Chet/Chet Baker Sings\
 > 11 Beatles, The/Sgt Peppers Lonely Hearts Club Band\
