@@ -5,9 +5,11 @@ Toolset for dr14_tmeter for measuring audio compression.
 dr14tool is a wrapper aroound dr14_tmeter. dr14tool can be used to scan your whole music collection for the existence of dr14.txt, the file in which dr14_tmeter stores the compression information; if it does not exist, it will generate the file on the fly. dr14tool can also be used to report the compression value for each album of you whole music library in one report.
 
 ## What is DR14 T Meter?
-DR14 T.meter is a free and open-source command-line tool for computing the Dynamic Range of your music according to the procedure used in the off-line meter released by the Pleasurize Music Foundation.\
+DR14 T.meter is a free and open-source command-line tool for computing the Dynamic Range (DR) of your music according to the procedure used in the off-line meter released by the Pleasurize Music Foundation. DR is also known as 'loudness war'.\
 \
-For more info, see http://dr14tmeter.sourceforge.net/index.php/Main_Page
+For more info, see:
+* DR14 T.Meter: http://dr14tmeter.sourceforge.net/index.php/Main_Page
+* DR Compression Database: http://dr.loudness-war.info/
 
 ## Requirements
 * python3
