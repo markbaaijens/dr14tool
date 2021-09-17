@@ -18,8 +18,9 @@ For more info, see:
 ## Installation 
 `# dr14_tmeter`\
 `sudo apt install lame flac vorbis-tools faad ffmpeg`\
-`pip3 install numpy scipy`\
-`pip3 install DR14-T.meter`\
+`sudo apt install python3-pip`\
+`sudo pip3 install numpy scipy`\
+`sudo pip3 install DR14-T.meter`\
 `# dr14tool`\
 `wget https://raw.githubusercontent.com/markbaaijens/dr14tool/master/dr14tool.py -O dr14tool.py`
 
